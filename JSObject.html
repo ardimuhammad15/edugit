@@ -1,0 +1,19 @@
+<html lang="en">
+  <head>
+    <title>JS Object</title>
+  </head>
+  <body>
+    <p id="js_object"></p>
+
+    <script>
+      const person = {
+        firstName: "John",
+        lastName: "Doe",
+        desc: function () {
+          return this.firstName;
+        },
+      };
+      alert(person.desc());
+    </script>
+  </body>
+</html>
